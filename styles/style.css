@@ -56,8 +56,7 @@ main section {
   align-items: center;
   gap: 50px;
 }
-.about-img,
-.about-info {
+.about-img {
   width: 50%;
 }
 
@@ -94,6 +93,14 @@ main section {
 }
 
 /* My Plans styles here */
+.plan-title {
+  margin: 20px;
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .my-plan-container {
   padding: 30px;
   display: flex;
@@ -101,12 +108,9 @@ main section {
   justify-content: space-around;
   align-items: center;
 }
-.plan-title {
-  margin: 20px;
+
+.plan-item {
   text-align: center;
-  color: #151414;
-  font-size: 40px;
-  font-weight: 700;
 }
 /* Other styles here */
 
@@ -137,3 +141,76 @@ main section {
 }
 
 /* Footer Styles Here */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #151414;
+  gap: 100px;
+  padding: 100px 150px;
+  color: #f8f8f8;
+  margin-top: 100px;
+}
+
+.footer-item {
+  width: 50%;
+}
+
+.footer-item h3 {
+  margin: 0;
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.footer-item p {
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-item span {
+  display: block;
+  margin-top: 10px;
+}
+
+.social-links {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.social-links a {
+  margin-right: 15px;
+}
+.footer-subscribe-item {
+  margin-bottom: auto;
+}
+.footer-subscribe-item h3 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer-subscribe-item input {
+  display: block;
+  border: 0;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 15px;
+  background: #151414;
+  min-width: 100%;
+}
+
+.footer-subscribe-item button {
+  border: 0;
+  margin-top: 15px;
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
