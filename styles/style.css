@@ -1,0 +1,57 @@
+/* Global Style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #f15b22;
+  border: 0;
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Header styles Here */
+.header {
+  height: 400px;
+  background-image: url('../images/banner/banner1.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.hero-section {
+  max-width: 300px;
+  margin-right: 100px;
+  margin-bottom: auto;
+  /* padding: 0px 100px; */
+  text-align: right;
+}
+
+.hero-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.hero-description {
+  color: #444343;
+  margin-top: 20px;
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* About Styles here */
+
+/* My Plans styles here */
+
+/* Other styles here */
+
+/* Footer Styles Here */
