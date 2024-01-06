@@ -17,7 +17,7 @@ body {
 }
 
 main section {
-  margin: 100px 100px 0;
+  margin: 80px 70px 0 70px;
 }
 /* Header styles Here */
 .header {
@@ -94,7 +94,20 @@ main section {
 }
 
 /* My Plans styles here */
-
+.my-plan-container {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+.plan-title {
+  margin: 20px;
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
 /* Other styles here */
 
 /* Footer Styles Here */
