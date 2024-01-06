@@ -16,12 +16,14 @@ body {
   padding: 20px;
 }
 
+main section {
+  margin: 100px 100px 0;
+}
 /* Header styles Here */
 .header {
-  height: 400px;
+  height: 500px;
   background-image: url('../images/banner/banner1.png');
   background-repeat: no-repeat;
-  background-position: left;
   background-size: 100% 100%;
   display: flex;
   align-items: end;
@@ -29,9 +31,7 @@ body {
 }
 .hero-section {
   max-width: 300px;
-  margin-right: 100px;
-  margin-bottom: auto;
-  /* padding: 0px 100px; */
+  margin: auto 100px;
   text-align: right;
 }
 
@@ -49,6 +49,49 @@ body {
   font-weight: 400;
 }
 /* About Styles here */
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.about-img,
+.about-info {
+  width: 50%;
+}
+
+.about-img > img {
+  max-height: 500px;
+  margin-bottom: 100px;
+}
+.about-info-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  padding-right: 15px;
+}
+
+.about-info-description {
+  max-width: 500px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about-info > ul {
+  padding: 0;
+  margin-top: 5px;
+  list-style: none;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.list-item span {
+  color: green;
+  margin-right: 5px;
+}
 
 /* My Plans styles here */
 
