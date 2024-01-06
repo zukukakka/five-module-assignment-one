@@ -110,4 +110,30 @@ main section {
 }
 /* Other styles here */
 
+.other-section {
+  background-image: url('../images/gradient2.png'), url('../images/watch.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  padding: 20px 70px;
+}
+
+.other-section h3 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  max-width: 600px;
+}
+
+.other-section button {
+  border: 0;
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+}
+
 /* Footer Styles Here */
