@@ -7,7 +7,7 @@ body {
 .btn-primary {
   border-radius: 5px;
   background: #f15b22;
-  border: 0;
+  border: none;
   color: #fff;
   text-align: right;
   font-size: 20px;
@@ -21,7 +21,7 @@ main section {
 }
 /* Header styles Here */
 .header {
-  height: 800px;
+  height: 100vh;
   background-image: url('../images/banner/banner1.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -30,14 +30,15 @@ main section {
   justify-content: end;
 }
 .hero-section {
-  max-width: 300px;
+  max-width: 600px;
   margin: auto 100px;
   text-align: right;
 }
 
 .hero-title {
   color: #151414;
-  font-size: 30px;
+  text-align: right;
+  font-size: 65px;
   font-weight: 700;
 }
 
@@ -58,11 +59,22 @@ main section {
 }
 .about-img {
   width: 50%;
+  margin-top: 200px;
+}
+.about-circle {
+  position: absolute;
+
+  height: 550px;
+  width: 550px;
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
 }
 
 .about-img > img {
-  max-height: 500px;
-  margin-bottom: 100px;
+  position: relative;
+  max-height: 800px;
+  bottom: 172px;
+  right: 10px;
 }
 .about-info-title {
   color: #151414;
