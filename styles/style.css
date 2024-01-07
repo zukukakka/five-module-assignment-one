@@ -31,7 +31,7 @@ main section {
 }
 .hero-section {
   max-width: 600px;
-  margin: auto 100px;
+  margin: auto 200px;
   text-align: right;
 }
 
@@ -56,6 +56,7 @@ main section {
   justify-content: space-around;
   align-items: center;
   gap: 50px;
+  margin-bottom: 0px;
 }
 .about-img {
   width: 50%;
@@ -105,6 +106,9 @@ main section {
 }
 
 /* My Plans styles here */
+.plan-section {
+  margin-top: 0px;
+}
 .plan-title {
   margin: 20px;
   text-align: center;
